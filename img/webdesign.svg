@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 210 297"
+   height="297mm"
+   width="210mm"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
+   sodipodi:docname="webdesign.svg">
+  <defs
+     id="defs2">
+    <rect
+       x="40.934517"
+       y="100.46973"
+       width="131.03786"
+       height="73.708801"
+       id="rect30" />
+    <rect
+       x="50.332845"
+       y="107.07357"
+       width="121.63954"
+       height="67.10496"
+       id="rect24" />
+    <filter
+       inkscape:label="Channel Transparency"
+       style="color-interpolation-filters:sRGB;"
+       id="filter1020">
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -1 0.5 0.5 1 0 "
+         in="SourceGraphic"
+         result="colormatrix"
+         id="feColorMatrix1016" />
+      <feComposite
+         in="colormatrix"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1018" />
+    </filter>
+    <filter
+       inkscape:label="Channel Transparency"
+       style="color-interpolation-filters:sRGB;"
+       id="filter1026">
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -1 0.5 0.5 1 0 "
+         in="SourceGraphic"
+         result="colormatrix"
+         id="feColorMatrix1022" />
+      <feComposite
+         in="colormatrix"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1024" />
+    </filter>
+    <filter
+       inkscape:label="Channel Transparency"
+       style="color-interpolation-filters:sRGB;"
+       id="filter1032">
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -1 0.5 0.5 1 0 "
+         in="SourceGraphic"
+         result="colormatrix"
+         id="feColorMatrix1028" />
+      <feComposite
+         in="colormatrix"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1030" />
+    </filter>
+    <filter
+       inkscape:label="Channel Transparency"
+       style="color-interpolation-filters:sRGB;"
+       id="filter1038">
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -1 0.5 0.5 1 0 "
+         in="SourceGraphic"
+         result="colormatrix"
+         id="feColorMatrix1034" />
+      <feComposite
+         in="colormatrix"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1036" />
+    </filter>
+    <filter
+       inkscape:label="Channel Transparency"
+       style="color-interpolation-filters:sRGB;"
+       id="filter1044">
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -1 0.5 0.5 1 0 "
+         in="SourceGraphic"
+         result="colormatrix"
+         id="feColorMatrix1040" />
+      <feComposite
+         in="colormatrix"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1042" />
+    </filter>
+    <filter
+       inkscape:label="Channel Transparency"
+       style="color-interpolation-filters:sRGB;"
+       id="filter1050">
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -1 0.5 0.5 1 0 "
+         in="SourceGraphic"
+         result="colormatrix"
+         id="feColorMatrix1046" />
+      <feComposite
+         in="colormatrix"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1048" />
+    </filter>
+    <filter
+       inkscape:label="Channel Transparency"
+       style="color-interpolation-filters:sRGB;"
+       id="filter1056">
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -1 0.5 0.5 1 0 "
+         in="SourceGraphic"
+         result="colormatrix"
+         id="feColorMatrix1052" />
+      <feComposite
+         in="colormatrix"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1054" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.8101934"
+     inkscape:cx="344.98621"
+     inkscape:cy="482.96501"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:snap-midpoints="true"
+     inkscape:object-nodes="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="1358"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;stroke-width:0.264583;filter:url(#filter1056)"
+       id="rect14"
+       width="173.21941"
+       height="5.3743491"
+       x="19.84375"
+       y="181.58679"
+       ry="2.6871746" />
+    <rect
+       style="fill:#000000;stroke-width:0.300684;filter:url(#filter1050)"
+       id="rect16"
+       width="145.52083"
+       height="81.855453"
+       x="33.693035"
+       y="96.027229"
+       ry="3.3650928" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.37869;filter:url(#filter1044)"
+       id="rect20"
+       width="131.03787"
+       height="73.708809"
+       x="40.934517"
+       y="100.46973"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       id="text22"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:10.58333333px;white-space:pre;shape-inside:url(#rect24);filter:url(#filter1038);" />
+    <text
+       xml:space="preserve"
+       id="text28"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect30);fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter1032);"
+       transform="matrix(4.8497066,0,0,4.8497066,-161.09507,-380.97157)"><tspan
+         x="40.933594"
+         y="110.12422"><tspan>&lt;/a&gt;</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1026)"
+       d="m 22.220866,183.9639 15.406359,-8.44178"
+       id="path54"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1020)"
+       d="m 193.06316,184.27396 -15.40635,-8.44178"
+       id="path54-0"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>
