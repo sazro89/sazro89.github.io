@@ -1,0 +1,377 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", Arial, sans-serif;
+  height: 100%;
+  color: #e6e8e6;
+  background-color: #191919;
+  flex-direction: column;
+}
+
+label,
+button,
+input,
+textarea {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  line-height: 1.5;
+  padding-top: 0.5rem;
+}
+h1 {
+  font-family: "Oswald", Arial, sans-serif;
+  margin: 0;
+  font-size: 5rem;
+}
+
+h2 {
+  font-family: "Oswald", Arial, sans-serif;
+  margin: 0;
+  font-size: 3rem;
+  margin-block-end: 0px;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-decoration: underline;
+  margin-block-start: 0px;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #e6e8e6;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  width: 100%;
+  /* height: auto; */
+  /* min-height: 700px; */
+  min-height: fit-content;
+  padding: 100px;
+  /* overflow: hidden; */
+  color: #f2f2f2;
+  position: relative;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  column-gap: 20px;
+}
+
+.width {
+  display: grid;
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  column-gap: 20px;
+}
+
+header.intro {
+  background-image: url("/img/header.png");
+  /* photo by Tomáš Malík on unsplash */
+  min-height: 100vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+h1.intro {
+  padding-left: 12%;
+  padding-top: 14%;
+}
+
+h2.intro {
+  padding-left: 20%;
+}
+
+.divider {
+  display: block;
+  margin: 30px 0;
+  width: 250px;
+  height: 2px;
+  background-color: #f15025;
+}
+
+.underline {
+  border-bottom: 2px solid #f15025;
+  display: inline-block;
+  line-height: 1;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.mousewheel {
+  max-width: 2.5rem;
+  width: 100%;
+  height: auto;
+}
+
+.scroll {
+  animation-name: scroll;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.65, -0.55, 0.25, 1.5);
+  animation-iteration-count: infinite;
+  transform-origin: 50% 20.5px;
+  will-change: transform, opacity;
+  opacity: 1;
+}
+
+@keyframes scroll {
+  0%,
+  20% {
+    transform: translateY(0) scaleY(1);
+  }
+  100% {
+    transform: translateY(36px) scaleY(2);
+    opacity: 0;
+  }
+}
+
+#about {
+  background-image: url("/img/under_header.png");
+  height: 25vh;
+  min-height: 700px;
+  background-position: top;
+  background-repeat: overflow;
+  background-size: cover;
+}
+
+#about img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 100%;
+  max-width: 100%;
+}
+
+#about p {
+  font-size: 1.1em;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 1em;
+}
+
+#services {
+  background-image: url("/img/services.png");
+  /* Photo by Scott Graham on Unsplash */
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#services.section .grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#services .services-texts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px 20px;
+  align-content: center;
+}
+
+#services .services-text {
+  padding: 20px;
+  background-color: rgba(15, 15, 15, 50%);
+  border-radius: 10px;
+}
+
+#services .services-text p {
+  font-size: 1.1em;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.skill-grid-horizontal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+svg {
+  width: 128px;
+  height: 128px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 500px;
+}
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #e6e8e6;
+  background-color: transparent;
+  color: #e6e8e6;
+}
+
+input:focus {
+  border-color: #f15025;
+}
+
+.grow-wrap {
+  display: grid;
+}
+
+.grow-wrap::after {
+  content: attr(data-replicated-value) " ";
+  white-space: pre-wrap;
+  visibility: hidden;
+}
+
+.grow-wrap > textarea {
+  resize: none;
+  overflow: hidden;
+  background-color: transparent;
+  outline: none !important;
+  border: 2px solid #e6e8e6;
+  color: #e6e8e6;
+  border-bottom-style: solid;
+  border-color: transparent;
+  border-bottom-color: #e6e8e6;
+}
+
+.dont-break-out {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.grow-wrap > textarea,
+.grow-wrap::after {
+  padding: 0.5rem;
+  font: inherit;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.grow-wrap > textarea:focus {
+  border-bottom-color: #f15025;
+}
+
+button {
+  margin-top: 1rem;
+  background: transparent;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  color: #f15025;
+  border-color: #f15025;
+  padding: 0.5rem 1rem;
+}
+
+#contact {
+  background-image: url("/img/contact.png");
+  /* Photo by Dušan Veverkolog on Unsplash */
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
+  justify-content: center;
+}
+
+#contact .width {
+  max-width: 600px;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: rgba(15, 15, 15, 50%);
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  background-image: url("/img/projects.png");
+  /* this part in particular will really benefit from parallax */
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height:fit-content; */
+  justify-content: center;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.project:nth-child(even) {
+  margin-left: 20%;
+}
+
+.project:nth-child(odd) {
+  margin-right: 20%;
+}
+.projects :nth-child(even) :nth-child(1){
+  order: -1;
+}
+
+.projects :nth-child(odd) :nth-child(1){
+  order: 5;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color:rgba(15, 15, 15, 50%);
+  margin:20px;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 800px;
+}
+
+.project__image {
+  height:fit-content;
+  width: 100%;
+}
+
+.project__text {
+  padding: 20px;
+}
