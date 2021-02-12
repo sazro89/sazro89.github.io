@@ -365,6 +365,7 @@ button {
   border-radius: 20px;
   overflow: hidden;
   width: 800px;
+  height: 300px;
 }
 
 .project__image {
@@ -372,6 +373,31 @@ button {
   width: 100%;
 }
 
+.project__description {
+  flex-grow: 1;
+}
+
 .project__text {
   padding: 20px;
+}
+
+.skills-used {
+  margin-top: auto;
+}
+
+.skills-used__title {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.skills-used__list {
+  display: flex;
+  margin: 0;
+}
+
+.skills-used__skill {
+  margin: 0 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #191919;
 }
