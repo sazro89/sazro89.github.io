@@ -397,7 +397,7 @@ button {
 
 .skills-used__skill {
   margin: 0 5px;
-  padding: 5px;
+  padding: 5px 8px;
   border-radius: 5px;
   background-color: #191919;
 }
