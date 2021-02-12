@@ -86,7 +86,7 @@ ul {
 }
 
 header.intro{
-    background-image: url(img/header.png);
+    background-image: url('/img/header.png');
     /* photo by Tomáš Malík on unsplash */
     min-height: 100vh;
     background-position: bottom;
@@ -154,7 +154,7 @@ h2.intro{
 }
 
 #about {
-    background-image: url(img/under_header.png);
+    background-image: url('/img/under_header.png');
     height: 25vh;
     background-position: top;
     background-repeat: overflow;
