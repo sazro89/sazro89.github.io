@@ -67,6 +67,10 @@ ul {
   padding: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 .center {
   text-align: center;
   margin-left: auto;
@@ -99,6 +103,38 @@ ul {
   margin-left: auto;
   margin-right: auto;
   column-gap: 20px;
+  justify-content: center;
+}
+
+.navigation {
+  position: fixed;
+  padding: 20px;
+  border-radius: 20px;
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%);
+  right: 20px;
+  z-index: 1;
+  background-color: (15, 15, 15, 0%);
+  transition: background-color .2s;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: rgba(230, 232, 230, 25%)
+}
+
+.navigation:hover {
+  background-color:rgba(15, 15, 15, 50%);
+}
+
+.navigation__items {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  line-height: 1.5em;
 }
 
 header.intro {
@@ -326,7 +362,7 @@ button {
 }
 
 #projects {
-  display: flex;
+  display:flex;
   flex-direction: column;
   background-image: url("/img/projects.png");
   /* this part in particular will really benefit from parallax */
@@ -349,11 +385,11 @@ button {
 .project:nth-child(odd) {
   margin-right: 20%;
 }
-.projects :nth-child(even) :nth-child(1){
-  order: -1;
+.projects .project:nth-child(even) .project__image:first-child {
+  order: 0;
 }
 
-.projects :nth-child(odd) :nth-child(1){
+.projects .project:nth-child(odd) .project__image:first-child {
   order: 5;
 }
 
@@ -364,13 +400,15 @@ button {
   margin:20px;
   border-radius: 20px;
   overflow: hidden;
+  /* width: 800px; */
   width: 800px;
   height: 300px;
 }
 
 .project__image {
-  height:fit-content;
-  width: 100%;
+  /* height: fit-content;
+  width: auto; */
+  width: 1fr;
 }
 
 .project__description {
@@ -379,6 +417,9 @@ button {
 
 .project__text {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
 }
 
 .skills-used {
