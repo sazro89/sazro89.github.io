@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sarah Rollins - Software Designer</title>
     <link rel="stylesheet" href="/css/styles.css" />
+
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -28,14 +29,6 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@900&display=swap"
-      rel="stylesheet"
-    />
-    <link
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap"
       rel="stylesheet"
     />
@@ -43,17 +36,52 @@
   <!-- <a href="https://www.freecodecamp.org/" target="_blank" rel="noreferrer noopener" > -->
 
   <body>
-    <nav class="navigation">
+    <nav class="navigation" id="navigation">
       <ul class="navigation__items">
-        <li class="navigation__section"><a href="#intro">INTRO ⬤</a></li>
-        <li class="navigation__section"><a href="#about">ABOUT ME ⬤</a></li>
+        <li class="navigation__section">
+          <a href="#intro" class="active">
+            <span class="navigation__label">TOP</span>
+            <span class="dot"></span>
+          </a>
+        </li>
+        <li class="navigation__section">
+          <a href="#about">
+            <span class="navigation__label">ABOUT ME</span>
+            <span class="dot"></span>
+          </a>
+        </li>
+        <li class="navigation__section">
+          <a href="#services">
+            <span class="navigation__label">WHAT I DO</span>
+            <span class="dot"></span>
+          </a>
+        </li>
+        <li class="navigation__section">
+          <a href="#skills">
+            <span class="navigation__label">SKILLS</span>
+            <span class="dot"></span>
+          </a>
+        </li>
+        <li class="navigation__section">
+          <a href="#projects">
+            <span class="navigation__label">PROJECTS</span>
+            <span class="dot"></span>
+          </a>
+        </li>
+        <li class="navigation__section">
+          <a href="#contact">
+            <span class="navigation__label">CONTACT ME</span>
+            <span class="dot"></span>
+          </a>
+        </li>
+        <!-- <li class="navigation__section"><a href="#about">ABOUT ME ⬤</a></li>
         <li class="navigation__section"><a href="#services">WHAT I DO ⬤</a></li>
         <li class="navigation__section"><a href="#skills">SKILLS ⬤</a></li>
         <li class="navigation__section"><a href="#projects">PROJECTS ⬤</a></li>
-        <li class="navigation__section"><a href="#contact">CONTACT ME ⬤</a></li>
+        <li class="navigation__section"><a href="#contact">CONTACT ME ⬤</a></li> -->
       </ul>
     </nav>
-    <header class="intro" id="intro">
+    <header class="section" id="intro">
       <h1 class="intro underline">Sarah Rollins</h1>
       <h2 class="intro">SOFTWARE DESIGNER</h2>
       <a class="scroll-down" href="#about" title="about me">
@@ -186,7 +214,7 @@
       </div>
     </section>
     <!-- <section class=experience>
-        i suppose we don't have much atm, but maybe this is something i can work on with career services.  
+        i suppose we don't have much atm, but maybe this is something i can work on with career services.
         this isn't required for this project but it's easy to slot in so i'll leave this as a comment
     </section> -->
     <section class="section" id="projects">
@@ -430,6 +458,8 @@
         - linkedin - svg -->
       <!-- and some fast nav button to scroll to the top -->
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 
   <svg display="none">
