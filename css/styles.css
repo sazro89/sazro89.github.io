@@ -412,12 +412,13 @@ button {
 }
 
 .project:nth-child(even) {
-  margin-left: 20%;
+  margin-left: 10vw;
 }
 
 .project:nth-child(odd) {
-  margin-right: 20%;
+  margin-right: 10vw;
 }
+
 .projects .project:nth-child(even) .project__image:first-child {
   order: 0;
 }
@@ -455,6 +456,23 @@ button {
   height: auto;
 }
 
+.project__text svg {
+  width: 24px;
+  height: 24px;
+  margin-top: 1.85rem;
+  margin-left: 10px;
+}
+
+.project__text a {
+  display: flex;
+  align-content: center;
+}
+
+.project__github {
+  margin-top: 2rem;
+  /* margin-top: 1.85rem; */
+  margin-left: auto;
+}
 .skills-used {
   margin-top: auto;
 }
@@ -462,6 +480,7 @@ button {
 .skills-used__title {
   margin: 0;
   margin-bottom: 5px;
+  margin-left: 10px;
 }
 
 .skills-used__list {
