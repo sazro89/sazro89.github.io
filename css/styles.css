@@ -25,6 +25,7 @@ textarea {
   line-height: 1.5;
   padding-top: 0.5rem;
 }
+
 h1 {
   font-family: "Oswald", Arial, sans-serif;
   margin: 0;
@@ -397,7 +398,7 @@ button {
 #projects {
   display:flex;
   flex-direction: column;
-  background-image: url("/img/projects.png");
+  background-image: url("/img/river.png");
   /* this part in particular will really benefit from parallax */
   background-position: bottom;
   background-repeat: no-repeat;
@@ -470,9 +471,9 @@ button {
 
 .project__github {
   margin-top: 2rem;
-  /* margin-top: 1.85rem; */
   margin-left: auto;
 }
+
 .skills-used {
   margin-top: auto;
 }
